@@ -10,8 +10,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-dropzone": "^4.2.10",
-    "react-scripts": "1.1.4",
-    "react-test-renderer": "^16.3.2"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,5 +18,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "react-test-renderer": "^16.4.1"
   }
 }
